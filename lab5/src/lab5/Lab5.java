@@ -17,9 +17,9 @@ public class Lab5 {
     public static void main(String[] args) {
         // TODO code application logic here
         Parallelepiped P1 = new Parallelepiped(1,2,3);
-      System.out.println("S="+P1.Area());
-      System.out.println("V="+P1.Voluem());
-      P1.Compration();
+      System.out.println("S="+P1.area());
+      System.out.println("V="+P1.volume());
+      P1.compration();
     }
     
 }
