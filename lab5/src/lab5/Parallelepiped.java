@@ -51,7 +51,7 @@ public class Parallelepiped {
     return s;
     }
     
-    public double Volume(){
+    public double volume(){
       double v=a*b*c; 
      return v;
     }
