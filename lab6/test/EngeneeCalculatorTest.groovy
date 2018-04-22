@@ -12,15 +12,15 @@ import org.junit.Before
 import org.junit.BeforeClass
 import org.junit.Test
 import static org.junit.Assert.*
-import lab6.Calculator
+import lab6.EngeneeCalculator
 
 /**
  *
- * @author 1610506
+ * @author lenya
  */
-class CalculatorTest {
- Calculator calcul= new Calculator(2,2);
-    public CalculatorTest() {
+class EngeneeCalculatorTest {
+EngeneeCalculator en= new EngeneeCalculator(90);
+    public EngeneeCalculatorTest() {
     }
 
     @BeforeClass
@@ -43,27 +43,14 @@ class CalculatorTest {
     //
     // @Test
     // public void hello() {}
-    @Test
-    public void AddTest01()
-    {
-        assertEquals(4.0,calcul.add());
+    @Test 
+    public void SinTest01(){
+        assertEquals(1,en.sin());
     }
     
-     @Test
-     public void SubTest02()
-    {
-        assertEquals(0.0,calcul.sub());
+     @Test 
+    public void CosTest01(){
+        assertEquals(0,en.cos());
     }
     
-     @Test
-     public void MultTest03()
-    {
-        assertEquals(4.0,calcul.mult());
-    }
-    
-     @Test
-     public void DivTest03()
-    {
-        assertEquals(1.0,calcul.div());
-    }
 }

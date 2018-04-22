@@ -21,6 +21,12 @@ public class Calculator {
     public Calculator(double a) {
         this.a = a;
     }
+
+    @Override
+    public String toString() {
+        return "Calculator{" + "a=" + a + ", b=" + b + '}';
+    }
+    
     
 
     public double getA() {
