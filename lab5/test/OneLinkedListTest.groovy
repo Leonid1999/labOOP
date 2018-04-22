@@ -1,4 +1,4 @@
-package com.company.lab5
+package lab5
 
 import org.junit.Test
 
