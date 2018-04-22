@@ -45,18 +45,18 @@ Parallelepiped P0 = new Parallelepiped(1,2,3);
     // public void hello() {}
     
    @Test
-   public void ParallelAreaTest01()
+   public void ParallelAreaTest01
    {
-       assertEquals(22.0,P0.area());
+       assertEquals(22.0,P0.Area());
    }
      @Test
-   public void ParallelVolumeTest02()
+   public void ParallelVolumeTest02
    {
-       assertEquals(6.0,P0.volume());
+       assertEquals(6.0,P0.Voluem());
    }
      @Test
-   public void ParallelComprationTest03()
+   public void ParallelComprationTest03
    {
-       assertEquals("V<S",P0.compration());
+       assertEquals("V<S",P0.Compration());
    }
 }

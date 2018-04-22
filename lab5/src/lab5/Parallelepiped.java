@@ -46,16 +46,16 @@ public class Parallelepiped {
         this.c = c;
     }
     
-    public double area(){
+    public double Area(){
     double s=2*(a*b+a*c+b*c);
     return s;
     }
     
-    public double volume(){
+    public double Voluem(){
       double v=a*b*c; 
      return v;
     }
-      public void compration(){
+      public void Compration(){
        double v=a*b*c;
        double s=2*(a*b+a*c+b*c);
         if(v<s){
